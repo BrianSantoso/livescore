@@ -62,7 +62,7 @@ for line in lines:
 	# timezone_difference = 2 - (2 * timezone)
 	
 
-	timezone_difference = int(-TIME.timezone / 60)
+	timezone_difference = int(-TIME.timezone / 3600)
 	hour = str((int(hour) + timezone_difference) % 24)
 
 	if len(hour) < 2:
