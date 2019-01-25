@@ -1,0 +1,56 @@
+24/01/2019|9:00|Bastia:Noisy-le-Grand|2-1|2-0
+24/01/2019|9:00|Vitre:Le Havre|3-0|1-0
+24/01/2019|9:00|Balzan FC:Mlada BoleslavU21|0-0|0-0
+24/01/2019|9:00|Vysocina JihlavaU21:Vrchovina|3-1|0-0
+24/01/2019|9:00|Santos Laguna Women:Tigres Women|1-3|1-3
+24/01/2019|9:00|Atlas Women:Queretaro Women|4-0|3-0
+24/01/2019|9:20|AS Tel Aviv University (w):Maccabi Kiryat Gat (w)|3-1|1-1
+24/01/2019|9:25|Israel U17(N):Iceland U17|1-1|1-1
+24/01/2019|9:30|ASD Albissola:Pontedera|1-2|1-1
+24/01/2019|9:30|Panathinaikos:Lamia|1-0|0-0
+24/01/2019|9:30|Fenerbahce:Umraniyespor|0-1|0-0
+24/01/2019|9:30|Girls Soccer Academy (w):Maccabi Hadera (w)|1-5|0-4
+24/01/2019|9:30|Maccabi Holon FC (w):Ironi Ramat Hasharon (w)|1-2|0-1
+24/01/2019|10:00|Zamalek:Pyramids FC|3-3|2-2
+24/01/2019|10:00|IRT Itihad de Tanger:Wydad Casablanca|1-0|0-0
+24/01/2019|10:00|Vocklamarkt:SV Ried II|2-2|1-2
+24/01/2019|10:00|HK Kopavogs:IBV Vestmannaeyjar|2-0|2-0
+24/01/2019|10:00|Tura Magic FC:FC Civics|1-0|1-0
+24/01/2019|10:30|RCD Espanyol:Real Betis|1-1|1-0
+24/01/2019|10:30|Koln (Youth):FC Monheim|7-1|2-1
+24/01/2019|10:30|Hapoel Beer Sheva (W):Bnot Netanya (w)|0-1|0-0
+24/01/2019|11:00|Gzira United:Slovan Bratislava|3-4|3-3
+24/01/2019|11:00|AD Ceuta:Real Betis B|2-0|1-0
+24/01/2019|11:00|Liverpool U23:Swansea City U23|2-0|1-0
+24/01/2019|11:30|Glacis United FC:Lions Gibraltar|3-1|1-0
+24/01/2019|11:45|Chelsea:Tottenham Hotspur|2-1|2-0
+24/01/2019|11:45|AFC Ajax:SC Heerenveen|3-1|3-0
+24/01/2019|11:45|KAA Gent:Oostende|2-2|1-1
+24/01/2019|2:00|Amiens:Lyon|0-2|0-2
+24/01/2019|2:00|UMF Selfoss (w):Stjarnan (w)|0-3|0-1
+24/01/2019|2:00|Crumlin United:Malahide United|5-0|2-0
+24/01/2019|2:10|Peru U20(N):Ecuador U20|1-3|1-2
+24/01/2019|2:30|Real Madrid:Girona|4-2|2-1
+24/01/2019|3:00|CD Audaz:Luis Angel Firpo|1-2|0-1
+24/01/2019|3:00|America MG:Villa Nova-MG|3-0|0-0
+24/01/2019|3:15|Sao Bento:Santos|0-4|0-2
+24/01/2019|4:00|Parana PR:Foz do Iguacu PR|4-0|0-0
+24/01/2019|4:00|Cascavel PR:Londrina PR|0-3|0-1
+24/01/2019|4:00|Club Necaxa Women:Monarcas Morelia Women|1-1|0-1
+24/01/2019|4:00|Lobos BUAP Women:Tijuana Women|1-1|1-0
+24/01/2019|4:15|Sportivo Luqueno:General Diaz|2-2|1-0
+24/01/2019|4:30|Goias:Novo Horizonte GO|1-0|1-0
+24/01/2019|4:30|Atletico Tubarao SC:Marcilio Dias SC|0-2|0-0
+24/01/2019|5:00|Gremio Novorizontin:Sao Paulo|0-3|0-2
+24/01/2019|5:00|Sao Caetano:Ituano  SP|0-0|0-0
+24/01/2019|5:00|Barbalha(N):Floresta CE|3-2|2-1
+24/01/2019|5:00|America PE:Afogados da Ingazeira FC|1-2|0-0
+24/01/2019|5:00|America FC Natal RN:Palmeira RN|3-0|0-0
+24/01/2019|5:00|Maranhao:Pinheiro AC|0-1|0-1
+24/01/2019|5:15|Internacional RS:EC Pelotas(RS)|1-2|1-1
+24/01/2019|5:30|Americano RJ(N):Fluminense RJ|0-4|0-1
+24/01/2019|5:30|Vitoria BA:Vitoria da Conquista BA|1-0|1-0
+24/01/2019|5:45|Uruguay U20(N):Argentina U20|0-1|0-0
+25/01/2019|2:40|Deportivo Roca:Alvarado Mar del Plata|1-0|1-0
+25/01/2019|3:00|Pachuca Women:Unam Pumas Women|3-0|1-0
+25/01/2019|3:10|Independiente Rivadavia:Barnechea|2-1|1-1
