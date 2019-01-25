@@ -61,6 +61,9 @@ for line in lines:
 	timezone_difference = 2
 	hour = str((int(hour) + timezone_difference))
 
+	if len(hour) < 2:
+		hour = '0' + hour
+
 
 	finished = line[findnth(line, ',', 11):findnth(line, ',', 12)][1:]
 	# print(finished)
@@ -68,6 +71,6 @@ for line in lines:
 	full = line[findnth(line, ',', 14):findnth(line, ',', 16)][1:].replace(',', '-')
 
 	if finished == '-1':
-			file.write(str(day) + '/' + str(month) + '/' + str(year) + '|' + hour + ':' + minute + '|' + team1 + ':' + team2 + '|' + half + '|' + full + '\n')
+		file.write(str(day) + '/' + str(month) + '/' + str(year) + '|' + hour + ':' + minute + '|' + team1 + ':' + team2 + '|' + half + '|' + full + '\n')
 
 file.close()
