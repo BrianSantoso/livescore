@@ -1,10 +1,11 @@
 import urllib3
+import time as TIME
 from bs4 import BeautifulSoup, SoupStrainer
 from datetime import datetime
 # https://www.livescore18.com/
 # https://www.livescore18.com/data/bf_en2.js?1548379839000
 http = urllib3.PoolManager()
-response = http.request('GET', 'https://www.livescore18.com/data/ft0_2.js?1548385046000')
+response = http.request('GET', 'https://www.livescore18.com/data/ft0_2.js')
 soup = BeautifulSoup(response.data, 'lxml')
 
 def findnth(haystack, needle, n):
@@ -23,6 +24,7 @@ lines = lines[5:5+matchcount]
 
 data = []
 file = open('data.txt','w')
+file.truncate(0)
 
 
 for line in lines:
@@ -52,14 +54,16 @@ for line in lines:
 	day = int(day)
 
 
-	time = line[findnth(line, ',', 8):findnth(line, ',', 10)][2:]
+	time = line[findnth(line, ',', 8):findnth(line, ',', 10)][1:]
 	hour = time[0:findnth(time, ',', 0)]
 	minute = time[findnth(time, ',', 0) + 1:]
-	timezone = line[findnth(line, ',', 17):findnth(line, ',', 18)][1:]
-	timezone = int(timezone)
+	# timezone = line[findnth(line, ',', 17):findnth(line, ',', 18)][1:]
+	# timezone = int(timezone)
 	# timezone_difference = 2 - (2 * timezone)
-	timezone_difference = 2
-	hour = str((int(hour) + timezone_difference))
+	
+
+	timezone_difference = int(-TIME.timezone / 60)
+	hour = str((int(hour) + timezone_difference) % 24)
 
 	if len(hour) < 2:
 		hour = '0' + hour
