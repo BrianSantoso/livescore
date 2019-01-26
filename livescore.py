@@ -1,4 +1,5 @@
 import urllib3
+import os
 import time as TIME
 from bs4 import BeautifulSoup, SoupStrainer
 from datetime import datetime
@@ -25,9 +26,16 @@ matchcount = text[matchcountStart:matchcountEnd]
 matchcount = int(matchcount)
 lines = lines[5:5+matchcount]
 
-data = []
+file = None
+fileText = None
+try:
+	file = open('data.txt', 'r')
+	fileText = file.read().split('\n')
+except:
+	pass
+
 file = open('data.txt','w')
-file.truncate(0)
+
 
 for line in lines:
 
@@ -71,6 +79,8 @@ for line in lines:
 	full = line[findnth(line, ',', 14):findnth(line, ',', 16)][1:].replace(',', '-')
 
 	data = str(day) + '/' + str(month) + '/' + str(year) + '|' + str(hour) + ':' + str(minute) + '|' + team1 + ':' + team2 + '|' + half + '|' + full + '\n'
-	file.write(data)
+	
+	if data not in fileText:
+		file.write(data)
 
 file.close()
