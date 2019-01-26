@@ -27,7 +27,7 @@ matchcount = int(matchcount)
 lines = lines[5:5+matchcount]
 
 file = None
-fileText = None
+fileText = ''
 try:
 	file = open('data.txt', 'r')
 	fileText = file.read().split('\n')
