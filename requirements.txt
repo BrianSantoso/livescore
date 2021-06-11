@@ -152,6 +152,6 @@ tweepy==3.5.0
 urllib3==1.23
 w3lib==1.19.0
 wcwidth==0.1.7
-websockets==7.0
+websockets==9.1
 Werkzeug==0.14.1
 widgetsnbextension==3.3.1
