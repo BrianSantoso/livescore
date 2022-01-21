@@ -49,7 +49,7 @@ images2gif==1.0.1
 imutils==0.5.2
 inflect==0.2.5
 ipykernel==4.8.2
-ipython==6.5.0
+ipython==7.16.3
 ipython-genutils==0.2.0
 ipywidgets==7.3.1
 itsdangerous==0.24
