@@ -71,7 +71,7 @@ MarkupSafe==1.0
 marshmallow==2.15.6
 Mastodon.py==1.2.2
 matplotlib==2.2.2
-mistune==0.8.3
+mistune==2.0.3
 mock==2.0.0
 monotonic==1.5
 nbconvert==5.3.1
